@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:hint="Nhap so thu nhat"
+        android:id="@+id/edt_nhap_so_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+     android:hint="Nhap so thu 2"
+        android:id="@+id/edt_nhap_so_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvKetqua"
+        android:text="ket qua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="ClickNext"
+        android:text="Next Activity"
+        android:id="@+id/btnNextActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:text="Stop Services"
+        android:id="@+id/btnStopServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
